@@ -1,0 +1,30 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+}
+section p {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  list-style: none;
+  padding:0;
+}
+
+section article{
+  margin-left: 30px;
+}
+
+p{
+  height: 200px;
+  overflow: auto;
+}
